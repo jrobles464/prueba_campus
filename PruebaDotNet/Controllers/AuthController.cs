@@ -13,10 +13,10 @@ namespace PruebaDotNet.Controllers
         public IActionResult Login([FromBody] LoginModel loginModel)
         {
             // Credenciales de prueba
-            var adminEmail = "admin@prueba.com";
-            var adminPassword = "Admin123";
-            var clienteEmail = "cliente@prueba.com";
-            var clientePassword = "Cliente123";
+            var adminEmail = _configuration["admin:username"]; 
+            var adminPassword = _configuration["admin:password"]; 
+            var clienteEmail = _configuration["cliente:username"]; 
+            var clientePassword = _configuration["cliente:password"];
             if ((loginModel.Email == adminEmail &&
                  loginModel.Password == adminPassword) ||
                 (loginModel.Email == clienteEmail &&
