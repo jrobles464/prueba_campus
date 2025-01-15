@@ -1,0 +1,113 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.dll
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lib
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of https://docs.microsoft.com/en-us/nuget/consume-packages/packages-and-source-control
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+
+# Microsoft Azure Build Output
+csx/
+*.build.csdef
+
+# Windows image file caches
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Office Temp Files
+~$*
+~*.docx
+~*.xlsx
+~*.pptx
+
+# Windows shortcuts
+*.lnk
+
+# IIS
+Published
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Office Temp Files
+~$*
+~*.docx
+~*.xlsx
+~*.pptx
+
+# Windows shortcuts
+*.lnk
+
+# Visual Studio
+.vscode/
+.vs/
+.vscode/
+
+# DotNet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Build results
+bin/
+obj/
+
+# Uncomment if using
+# publish/
+# wwwroot/
+
+# Others
+.temp/
+.DS_Store
+*.class
+*.log
+# environment variables
+.env
+PruebaDotNet/appsettings.json
