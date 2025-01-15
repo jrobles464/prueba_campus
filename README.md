@@ -43,3 +43,4 @@ Es importante recordar que las credenciales según el rol son:
 * Para mejorar la escalabilidad del proyecto, lo correcto sería separar la capa de acceso a datos y la lógica de negocio. Para la capa de acceso a datos usar los archivos en `Repositories` y para la capa de lógica de negocio, usar los archivos de `Domains`.
 * Para las request y las response, crear objetos especificos para cada una. De esa manera nos aseguramos de aplicar buenas prácticas y mejorar la arquitectura de la aplicación (Sea la que sea, no solo de esta)
 * Debido a la falta de tiempo, no pude implementar la totalidad de estas prácticas, pero igual las dejo anotadas como constancia de que sé aplicarlas
+* Tuve un problema con la instalación del paquete del JWT, pero igualmente implementé las funcionalidades como si estuviese todo trabajando correctamente
